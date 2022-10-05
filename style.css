@@ -1,0 +1,26 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.education-section {
+    color: red ;
+font-weight:bold 
+}
+
+.wrapper { 
+    color: darkblue
+} 
+
+.information-main {
+    color: red ;
+    font-weight : bold
+}
+.name {
+    font-weight : bold ;
+    color : rgba(rgb(0, 174, 255), green, blue, alpha)
+}
+.education { 
+    font-weight: bold ;
+    color : blue;
+} 
