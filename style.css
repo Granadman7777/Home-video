@@ -24,3 +24,8 @@ font-weight:bold
     font-weight: bold ;
     color : blue;
 } 
+
+.bind {
+    color: pink ; 
+    font-weight : bold
+}
