@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -37,4 +38,9 @@ button  {
   font-weight: bolder;
   cursor: pointer; 
   
+ }
+ 
+ .img {  
+ border-radius: solid;
+ border-color: black;
  }
