@@ -2,7 +2,12 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
-
+.images {
+    position: relative;
+    left: 200px ;
+    border-radius: 100px;
+    border: solid;
+}
 
 .education-section {
     color: red ;
