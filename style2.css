@@ -1,0 +1,15 @@
+p{
+  border:solid 3px coral;
+display:block;
+
+}
+
+p::first-line { 
+  background-color: blueviolet;
+font-family: 'Oswald', sans-serif;
+
+}
+ p::first-letter{
+  font-size: 30px;
+color: bisque;
+ }
