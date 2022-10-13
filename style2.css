@@ -1,15 +1,24 @@
-p{
-  border:solid 3px coral;
-display:block;
-
+* {
+box-sizing: border-box;
 }
 
-p::first-line { 
-  background-color: blueviolet;
-font-family: 'Oswald', sans-serif;
-
+.container {
+    display: flex;
+    flex-direction:row-reverse;
+border: 1px solid black;
+align-items:flex-end;
+justify-content:right;
+min-height: 700px;
+flex-wrap: wrap;
 }
- p::first-letter{
-  font-size: 30px;
-color: bisque;
- }
+
+.item {
+width: 60px;
+height: 60px;
+background-color: teal;
+color: rgb(0, 0, 0);
+font-size: 2em;
+text-align: center;
+border: 2px solid red ;
+display: inline;
+}
