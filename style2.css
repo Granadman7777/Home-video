@@ -1,24 +1,8 @@
-* {
-box-sizing: border-box;
-}
-
-.container {
+.form  {
     display: flex;
-    flex-direction:row-reverse;
-border: 1px solid black;
-align-items:flex-end;
-justify-content:right;
-min-height: 700px;
-flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 200px;
 }
-
-.item {
-width: 60px;
-height: 60px;
-background-color: teal;
-color: rgb(0, 0, 0);
-font-size: 2em;
-text-align: center;
-border: 2px solid red ;
-display: inline;
+lable {
+    text-align: center;
 }
