@@ -1,8 +1,8 @@
-.form  {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
+label {
+    display: block;
+    font-size: large;
+    font-weight: bold;
 }
-lable {
-    text-align: center;
+div{
+    width: 400px;
 }

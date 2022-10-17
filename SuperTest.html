@@ -4,22 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <form class="form" action=" " method="get"> 
-        <h2>Sign in</h2> 
-<lable>type your email</lable>
+    <div>
+    <h1>Travel reservation form</h1>
+    <h3>*debotes mandotory</h3>
+    <form class="form">
+<label>Full name*:</label>
+<input type="text" placeholder="FirsName Lastname">
+<label>Email address*:</label>
+<input type="text" placeholder="EMAIL_ADDRESS">
 
-<input type="text" placeholder="example@mail.com" autofocus name="email">
-<lable> type your password</lable>
+<label>Seleck Tour Package*:</label>
+<input type="text" list="list">
+  <datalist id="list">
+    <option value="Goa">
+    <option value="Egipt">
+    <option value="Georgia">
+</datalist>
+<label>Arrival Date*:</label>
+<input type="date" placeholder="m/d/y">
 
-<input type="password" placeholder="password" name="password">
-<lable>Button</lable>
+<label>Number of persons*:</label>
+<input type="text" placeholder="UNKNOWN_TYPE">
 
-<button type="submit">Sing in</button>
+<label>what would you want to avial?*</label>
+<label>Boarding<input type="radio" name="avial"> </label>
+<label>Fooding<input type="radio" name="avial"></label>
+<label>Sight seeing<input type="radio" name="avial"></label>
+<label>Discount Coupon code:</label>
+
+<input type="text" placeholder="UNKNOWN TYPE">
+<label>Terms and conditions*</label>
+
+<input type="radio" name="choose">I agree <input type="radio" name="choose">I disagree<br>
+<button>Complete reservation</button>
     </form>
-    
+</div>
 </body>
 </html>
