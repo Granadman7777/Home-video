@@ -1,8 +1,80 @@
-label {
-    display: block;
-    font-size: large;
-    font-weight: bold;
+body { background-image: url(Image/ракушка.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-div{
-    width: 400px;
+
+.url {
+margin-top: 300px;
+}
+
+ h1 {
+    text-align: center;
+    color: #926239;
+    font-weight: bold;
+ }
+
+p{
+    text-align: center;
+    color: #926239;
+    font-weight: bold;  
+}
+
+.bolt {
+    text-align: center;
+}
+
+ button {
+    color: #926239;
+    border-radius: 12px;
+    border: 1px solid #926239;
+    padding: 10px 20px
+ }
+
+ button:hover{
+    background-color: #926239;
+    color: aliceblue;
+ }
+
+ .text1 {
+    display: inline;
+   
+ }
+
+ .text2 {
+    margin-top: 500px;
+      padding: 30px;
+    background-color: #926239;
+ }
+
+.inner {
+    padding:30px;
+    background-color: aliceblue;
+    color: #926239;
+}
+
+.inner-with {
+display: flex;
+text-align: justify;
+justify-content: space-around;
+}
+
+.ispum1 {
+background-color: #926239;
+padding: 12px;
+}
+
+.ispum2 {
+background-color: aliceblue;
+color:#926239 ;
+padding: 12px;
+}
+
+.ispum3 {
+   background-color: #926239;
+   padding: 20px;
 }
