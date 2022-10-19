@@ -1,47 +1,27 @@
-
 body {
-    font-family: 'Oswald', sans-serif;
+    background-color: black;
 }
-.images {
-    position: relative;
-    left: 200px ;
-    border-radius: 100px;
-    border: solid;
-}
-
-.education-section {
-    color: red ;
-font-weight:bold 
+.inner {
+  display: flex;
+    justify-content: space-around;
+    padding: 300px;
 }
 
-.wrapper { 
-    color: darkblue
-} 
-
-.information-main {
-    color: red ;
-    font-weight : bold
+div {
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    background-color: aqua;
+    color:bisque;
+    border-radius: 3%;
 }
-.name {
-    font-weight : bold ;
-    color : rgba(rgb(0, 174, 255), green, blue, alpha)
+p {
+    text-align: center;
+    font-size: large;
 }
-.education { 
-    font-weight: bold ;
-    color : blue;
-} 
-
-.bind {
-    color: pink ; 
-    font-weight : bold
+h1 { 
+    text-align:center;
 }
-
-button  {
-
-  background-color: black;
-  color:brown ;
-  font-weight: bolder;
-  cursor: pointer; 
-  
- }
- 
+h3 {
+    padding: 100px;
+}
